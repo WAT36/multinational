@@ -8,6 +8,9 @@ class Array{
         //配列の表示（表示方法については、後の章で述べる）
         System.out.println(Arrays.toString(nums));
 
+        //配列の長さ
+        System.out.println(nums.length);
+
         //要素の代入
         nums[0] = 1;
 
