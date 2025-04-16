@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go-first/notes" // notes パッケージのインポート
 	"go-first/utils" // utils パッケージのインポート
 )
 
@@ -9,4 +10,7 @@ import (
 func main() {
     fmt.Println("Starting myapp...")
     utils.PrintMessage()
+
+	// rune test
+	notes.Rune()
 }
