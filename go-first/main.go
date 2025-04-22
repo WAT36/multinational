@@ -8,9 +8,12 @@ import (
 
 // go run main.go
 func main() {
-    fmt.Println("Starting myapp...")
-    utils.PrintMessage()
+	fmt.Println("Starting myapp...")
+	utils.PrintMessage()
 
 	// rune test
 	notes.Rune()
+	fmt.Println("----^rune-------logicalv----")
+	// logical operator test
+	notes.LogicalOperator()
 }
