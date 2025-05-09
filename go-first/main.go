@@ -27,5 +27,5 @@ func main() {
 	fmt.Println("Starting myapp...")
 	utils.PrintMessage()
 
-	closure()
+	notes.Defer()
 }
