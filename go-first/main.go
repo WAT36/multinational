@@ -6,14 +6,6 @@ import (
 	"go-first/utils" // utils パッケージのインポート
 )
 
-func rune() {
-	notes.Rune()
-}
-
-func logicalOperator() {
-	notes.LogicalOperator()
-}
-
 func closure() {
 	// logical operator test
 	c := notes.Closure()
@@ -27,5 +19,9 @@ func main() {
 	fmt.Println("Starting myapp...")
 	utils.PrintMessage()
 
-	notes.Defer()
+	//notes.Rune()
+	//notes.LogicalOperator()
+	//closure()
+	//notes.Defer()
+	notes.PanicRecover()
 }
