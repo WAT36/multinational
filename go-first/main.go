@@ -23,5 +23,6 @@ func main() {
 	//notes.LogicalOperator()
 	//closure()
 	//notes.Defer()
-	notes.PanicRecover()
+	//notes.PanicRecover()
+	notes.Go()
 }
