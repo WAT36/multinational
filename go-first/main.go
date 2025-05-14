@@ -14,9 +14,20 @@ func closure() {
 	fmt.Println(c())
 }
 
+func init() {
+	fmt.Println("Starting myapp...")
+}
+
+func init() {
+	fmt.Println("Starting myapp2...")
+}
+
+func init() {
+	fmt.Println("Starting myapp3...")
+}
+
 // go run main.go
 func main() {
-	fmt.Println("Starting myapp...")
 	utils.PrintMessage()
 
 	//notes.Rune()
