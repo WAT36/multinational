@@ -18,14 +18,6 @@ func init() {
 	fmt.Println("Starting myapp...")
 }
 
-func init() {
-	fmt.Println("Starting myapp2...")
-}
-
-func init() {
-	fmt.Println("Starting myapp3...")
-}
-
 // go run main.go
 func main() {
 	utils.PrintMessage()
@@ -35,5 +27,6 @@ func main() {
 	//closure()
 	//notes.Defer()
 	//notes.PanicRecover()
-	notes.Go()
+	// notes.Go()
+	notes.Slice()
 }
