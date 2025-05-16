@@ -8,4 +8,5 @@ func Slice() {
 	fmt.Println(s)
 	s[0] = 9
 	fmt.Println(s)
+	fmt.Println(len(s))
 }
