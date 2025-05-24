@@ -28,5 +28,6 @@ func main() {
 	//notes.Defer()
 	//notes.PanicRecover()
 	// notes.Go()
-	notes.Slice()
+	//notes.Slice()
+	notes.Channel()
 }
