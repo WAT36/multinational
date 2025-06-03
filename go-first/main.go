@@ -29,5 +29,6 @@ func main() {
 	//notes.PanicRecover()
 	// notes.Go()
 	//notes.Slice()
-	notes.Channel()
+	//notes.Channel()
+	notes.Pointer()
 }
