@@ -27,8 +27,9 @@ func main() {
 	//closure()
 	//notes.Defer()
 	//notes.PanicRecover()
-	// notes.Go()
+	//notes.Go()
 	//notes.Slice()
 	//notes.Channel()
-	notes.Pointer()
+	//notes.Pointer()
+	notes.Method()
 }
