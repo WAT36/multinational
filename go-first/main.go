@@ -31,5 +31,6 @@ func main() {
 	//notes.Slice()
 	//notes.Channel()
 	//notes.Pointer()
-	notes.Method()
+	// notes.Method()
+	notes.Tag()
 }
